@@ -1,0 +1,51 @@
+*{
+    box-sizing:border-box;
+  
+}
+
+
+.container {
+  position:relative;
+  
+}
+
+.red {
+  position: absolute;
+  z-index: 3; /* gray box will be above both green and black box */
+  background: red;
+  height: 30px;  
+  width: 100%;
+
+  top:0px;
+  
+}
+
+.white {
+  position: absolute;
+  z-index: 3; /* gray box will be above both green and black box */
+  background: white;
+  height: 30px;  
+  width: 100%;
+
+  top: 30px;
+}
+
+.green {
+  position: absolute;
+  z-index: 3; /* gray box will be above both green and black box */
+  background:green;
+  height: 30px;  
+  width: 100%;
+
+  top: 60px;
+}
+
+.Star{
+	  margin-top:7px;
+  }
+
+div marquee{
+	margin-top:5px;
+}
+
+
